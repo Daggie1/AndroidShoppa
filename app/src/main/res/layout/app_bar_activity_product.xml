@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.ProductActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:layout_collapseMode="pin"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_front_page_view" />
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomApp"
+        android:layout_width="match_parent"
+        app:fabAlignmentMode="end"
+        android:backgroundTint="@color/colorPrimary"
+        app:fabCradleVerticalOffset="12dp"
+        app:fabCradleRoundedCornerRadius="0dp"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content">
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:layout_width="match_parent"
+          android:layout_marginStart="16dp"
+          android:layout_marginEnd="16dp"
+          android:layout_height="wrap_content">
+
+          <androidx.appcompat.widget.AppCompatImageView
+              android:id="@+id/bottom_home"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="16dp"
+              android:src="@drawable/ic_home_black_24dp"
+              android:tint="@color/colorWhite"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bottom_Wishlist"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/bottom_home"
+            app:layout_constraintEnd_toStartOf="@id/bottm_cartmage"
+            android:layout_width="wrap_content"
+
+            android:src="@drawable/ic_heart"
+            android:tint="@color/colorWhite"
+            android:layout_height="wrap_content" />
+
+          <TextView
+              android:id="@+id/wishlistCounter"
+              android:layout_width="20dp"
+              android:layout_height="20dp"
+              android:layout_marginTop="3dp"
+              android:background="@drawable/badge_background"
+              android:gravity="center"
+              android:padding="3dp"
+              android:text="0"
+              android:textColor="@color/colorWhite"
+              android:textSize="10sp"
+              app:layout_constraintBottom_toTopOf="@id/bottom_Wishlist"
+              app:layout_constraintEnd_toStartOf="@id/bottom_Wishlist"
+              app:layout_constraintHorizontal_bias="0.17"
+              app:layout_constraintStart_toEndOf="@id/bottom_Wishlist"
+              app:layout_constraintTop_toTopOf="@id/bottom_Wishlist"
+              app:layout_constraintVertical_bias="0.3" />
+          <ImageView
+              android:id="@+id/bottm_cartmage"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginEnd="16dp"
+              android:src="@drawable/ic_shopping_cart"
+              android:tint="@color/colorWhite"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+
+          <TextView
+              android:id="@+id/cartCounter"
+              android:layout_width="20dp"
+              android:layout_height="20dp"
+              android:layout_marginTop="3dp"
+              android:background="@drawable/badge_background"
+              android:gravity="center"
+              android:padding="3dp"
+              android:text="0"
+              android:textColor="@color/colorWhite"
+              android:textSize="10sp"
+              app:layout_constraintBottom_toTopOf="@id/bottm_cartmage"
+              app:layout_constraintEnd_toStartOf="@id/bottm_cartmage"
+              app:layout_constraintHorizontal_bias="0.24"
+              app:layout_constraintStart_toEndOf="@id/bottm_cartmage"
+              app:layout_constraintTop_toTopOf="@id/bottm_cartmage"
+              app:layout_constraintVertical_bias="0.23000002" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

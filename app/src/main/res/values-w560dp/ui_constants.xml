@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="product_grid_span">2</integer>
+    <dimen name="logo_height">300dp</dimen>
+
+</resources>

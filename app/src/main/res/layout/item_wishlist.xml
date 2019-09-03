@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="2dp">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/wishlist_delete_icon"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:padding="3dp"
+                android:src="@drawable/ic_delete"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/wishlist_cart_icon"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:padding="3dp"
+                android:layout_gravity="bottom|end"
+                android:src="@drawable/ic_cart_orange"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/wishlist_product_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/denimshirt"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="wishlist_productname"
+                    android:layout_marginStart="5dp"
+                    style="@style/TextAppearance.MyApp.Title"
+                    android:id="@+id/wishlist_product_name"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Price"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="5dp"
+                        style="@style/TextAppearance.MyApp.Price"
+                        android:id="@+id/wishlist_product_price"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/wishlist_button_view_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Details"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:strokeColor="@color/colorPrimary"
+            android:layout_gravity="end|bottom"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

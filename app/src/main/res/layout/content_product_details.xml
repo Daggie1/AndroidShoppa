@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+    android:id="@+id/detail_product_image"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_gravity="top"
+    android:src="@drawable/pager1"
+    android:scaleType="centerCrop" />
+
+
+
+</LinearLayout>
+

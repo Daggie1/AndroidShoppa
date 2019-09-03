@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Shoppy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_price">25,000 Ksh</string>
+
+    <string name="product_specific_name">NIKE Air, Brand New, White!</string>
+    <string name="detailed_description">These are shoes that you can wear anywhere and anytime. They can go with any attire in your closet and
+    will make you look good in any event! Classy and Extremely comfortable.</string>
+
+    <string name="go_to_wishlist">Wish List</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="add_to_wishlist">Add To Wish List</string>
+    <string name="action_settings">Settings</string>
+    <string name="go_to_cart">Cart</string>
+    <string name="title_activity_view_product_details">Details</string>
+    <string name="product_description">Description</string>
+    <string name="product_value_price">Kshs 1248</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Wish List</string>
+    <string name="title_notifications">Cart</string>
+    <string name="add_product">Add</string>
+    <string name="title_activity_front_page_view">FrontPageView</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Something@Muva.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_send">Enquiry</string>
+    <string name="go_to_category">Category</string>
+    <string name="welcome_back">Muva Tech</string>
+    <string name="username">Username:</string>
+    <string name="firstname">First Name:</string>
+    <string name="lastname">Last Name:</string>
+    <string name="amount">Amount:</string>
+    <string name="preview_order">Preview Order</string>
+    <string name="buyer_username">Muva Tech</string>
+    <string name="phonenumber">Phone Number:</string>
+    <string name="default_email">Something@Muva.com</string>
+    <string name="amount_of_product_items">How Many Do You Want?</string>
+    <string name="close">Close</string>
+    <string name="Forgot_Password">Forgot Your Password?</string>
+    <string name="forgot_password_instruction">Please confirm your Email Address below and we will send you a new password.</string>
+    <string name="Change_Password">Change Password?</string>
+    <string name="return_to_login">Return To Login</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="new_password">New Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="enter_old_password">Enter Old Password:</string>
+    <string name="enter_new_password">Enter New Password:</string>
+    <string name="back_to_settings">Back To Settings</string>
+    <string name="Change_password">Change Password</string>
+    <string name="Change_email">Change Email</string>
+    <string name="Change_phone_number">Change Phone Number</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="account_Information">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <string name="SHARED_PREFERENCES">tech.muva.academy.android_shoppa.utils.sharedpref</string>
+    <string name="BUYER_TOKEN">tech.muva.academy.android_shoppa.utils.sharedpref.token</string>
+    <string name="BUYER_USERNAME">tech.muva.academy.android_shoppa.utils.sharedpref.username</string>
+    <string name="BUYER_EMAIL">tech.muva.academy.android_shoppa.utils.sharedpref.email</string>
+    <string name="BUYER_STATUS">tech.muva.academy.android_shoppa.utils.sharedpref.status</string>
+    <string name="BUYER_FIRSTNAME">tech.muva.academy.android_shoppa.utils.sharedpref.firstname</string>
+    <string name="BUYER_LASTNAME">tech.muva.academy.android_shoppa.utils.sharedpref.lastname</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="contact_us">Contact Us</string>
+    <string name="help">Help</string>
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="proceed_without_login">Proceed Without Login</string>
+    <string name="login_text">LOGIN</string>
+    <string name="pay_using_mpesa">Pay Using Mpesa</string>
+    <string name="pay_in_cash">Pay In Cash</string>
+    <string name="confirm_phonenumber">Enter Your Phone Number</string>
+    <string name="go_to_orders">Orders</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="you_are_offline">You are Offline!</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="BUYER_CART">tech.muva.academy.android_shoppa.utils.sharedpref.cart</string>
+    <string name="BUYER_WISHLIST">tech.muva.academy.android_shoppa.utils.sharedpref.wishlist</string>
+
+</resources>

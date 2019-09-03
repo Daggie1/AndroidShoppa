@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.activities.ProductActivity"
+    tools:showIn="@layout/app_bar_activity_product">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_tab"
+        app:tabMode="auto"
+        style="@style/Theme.AppCompat.DayNight.DarkActionBar">
+
+        </com.google.android.material.tabs.TabLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout android:id="@+id/tabContent" android:layout_weight="1" android:layout_width="match_parent" android:layout_height="0dp">
+    </FrameLayout>
+
+
+
+</LinearLayout>
+
+<!--<com.google.android.material.tabs.TabLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:id="@+id/main_tab"-->
+<!--app:tabMode="auto"-->
+<!--style="@style/Theme.AppCompat.DayNight.DarkActionBar">-->
+
+<!--</com.google.android.material.tabs.TabLayout>-->
+
+
+<!--<androidx.viewpager.widget.ViewPager-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:id="@+id/main_tabs_pager">-->
+
+<!--</androidx.viewpager.widget.ViewPager>-->
+
+
+
+
+
